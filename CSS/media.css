@@ -1,0 +1,70 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 20px;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .features__title {
+        font-style: 40px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .header__row {
+        display: flex;
+        justify-content: space-around;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .features__title {
+        font-style: 32px;
+    }
+    .nav__menu {
+        display: none;
+    }
+    .hero__girl {
+        display: none;
+    }
+    .hero__title {
+        font-size: 50px;
+        width: 58px;
+    }
+    .hero__btn {
+        font-size: 30px;
+    }
+    .slick-next.slick-arrow {
+        position: absolute;
+        top: -45px;
+        right: 100px;
+    }   
+    .hero {
+        height: 80vh;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
