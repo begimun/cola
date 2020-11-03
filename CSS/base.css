@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+img {
+    width: 120px;
+}
+.container {
+    width: 1280px;
+    margin: auto;
+}
+.twit {
+    width: 17px;
+}
+.face {
+    width: 8px;
+    margin-left: 25px;
+}

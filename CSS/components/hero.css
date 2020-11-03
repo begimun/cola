@@ -1,0 +1,78 @@
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-color:#1b2433;
+}
+.hero__content {
+    padding-top: 140px;
+    width: 700px;
+    color: white;
+}
+.hero__girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 780px;
+    z-index: 1;
+}
+h1 {
+    text-decoration: none;
+    font-size: 80px;
+}
+.hero__title {
+    font-size: 80px;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+}
+.hero__description {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+.hero__btn  {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+.features{
+	padding: 130px 0 190px 0;
+
+}
+
+.features__inner{
+	color: #25252e;
+
+}
+
+.features__title{
+	width: 670px;
+	font-size: 60px;
+}
+
+.features__row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-4{
+	width: 33.33%;
+
+}
+
+.features__icon{
+    height: 40px;
+    height: 32px;
+}
+
+.features__subtitle{
+	white-space: pre-wrap;
+	font-size: 22px;
+}
+
+.features__description{
+	white-space: pre-wrap;
+	font-size: 16px;
+}
