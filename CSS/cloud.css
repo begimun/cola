@@ -123,6 +123,53 @@ h1 {
 	font-size: 16px;
 }
 
+.slick-prev.slick-arrow {
+    position: absolute;
+    top: -45px;
+    z-index: 2;
+    right: 222px;
+    font-size: 0;
+    width: 57px;
+    border: 0;
+    height: 8px;
+    transform: rotate(180deg);
+    background: url(../Logo/arrow-slider.svg) center no-repeat ;
+    cursor: pointer;
+    outline:none;
+}
+.slick-next.slick-arrow {
+    position: absolute;
+    top: -45px;
+    right: 147px;
+    font-size: 0;
+    width: 57px;
+    border: 0;
+    height: 8px;
+    background: url(../Logo/arrow-slider.svg) center no-repeat ;
+    cursor: pointer;
+    outline:none;
+    transition: 0.5s;
+}
+.slick-next.slick-arrow:active {
+    right: 147px;
+    transform: rotate(180deg);
+}
+.slick-next.slick-arrow::before,
+.slick-prev.slick-arrow::before {
+    content: "";
+    position: absolute ;
+    top: -30px;
+    width: 35px;
+    height: 40px;
+    opacity: 0;
+    border: 1px solid green;
+    transition: 0.3s;
+}
+.slick-next.slick-arrow:hover::before,
+.slick-prev.slick-arrow:hover::before {
+    opacity: 1;
+    top: -11px;
+}
 
 
 
